@@ -25,3 +25,10 @@ WHERE age BETWEEN 25 AND 40;
     AND department = 'IT';
 
     -- Filters the data to display only employees aged 25 to 40 who belong to the IT department. Anyone outside this age bracket or department is excluded.
+
+SELECT 'column_name (name, department, salary, age)'
+FROM 'file_name (eg. employees)'
+WHERE department IN (IT, HR, TEACHER);
+
+    -- This SQL Statement displays all the row with the department IT OR HR OR teacher. The operator 'IN' replaces repetition of OR and =. 
+     
