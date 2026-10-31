@@ -21,6 +21,7 @@ WHERE (department = 'IT' OR salart > 38000) AND age < 46;
 
 SELECT 'column_name (name, department, salary, age)'
 FROM 'file_name (eg. employees)'
-WHERE age BETWEEN 25 AND 40
+WHERE age BETWEEN 25 AND 40;
+    AND department = 'IT';
 
-    -- The above SQL statement filters only the rows which satisfies the WHERE clause satement, age BETWEEN 25 AND 40. Age above 40 or below 25 will not be displayed.
+    -- Filters the data to display only employees aged 25 to 40 who belong to the IT department. Anyone outside this age bracket or department is excluded.
