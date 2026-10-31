@@ -18,3 +18,9 @@ FROM 'file_name (eg. employees)'
 WHERE (department = 'IT' OR salart > 38000) AND age < 46;
 
     -- The above SQL Statement specifies only the rows which first satisfies any one of the WHERE clause inside the parentheses and then the next condition.
+
+SELECT 'column_name (name, department, salary, age)'
+FROM 'file_name (eg. employees)'
+WHERE age BETWEEN 25 AND 40
+
+    -- The above SQL statement filters only the rows which satisfies the WHERE clause satement, age BETWEEN 25 AND 40. Age above 40 or below 25 will not be displayed.
